@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap');
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: rgb(255, 300, 100);
+  color: green;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+}
+
+p {
+  color: brown;
+  font-size: 2em;
+}
+
+#important-paragraph {
+  background-color: cadetblue;
+  color: gold;
+}
+
+.important {
+  color: red;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: lowercase;
+  text-align: left;
+}
+
+.super-important {
+  background-color: orange;
+}
+
+#box {
+  border: 1px dotted blue;
+  width: 50vw;
+  height: 100vh;
+  font-size: 30px;
+  background-color: burlywood;
+  /* height: 200px; */
+  background-image: url(Canvas_createpattern.png);
+  background-repeat: no-repeat;
+}
+
+#box-paragraph {
+  border: 1px solid red;
+  font-size: 0.5em;
+  width: 50vw;
+}
