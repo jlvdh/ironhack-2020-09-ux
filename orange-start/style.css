@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 25px;
+
+}
+
+#sidebar {
+    display: flex;
+}
+
+#sidebar > div {
+   margin-left: 36px;
+}
+
+#logo {
+    font-size: 26px;
+    font-family: Roboto;
+    font-weight: 900;
+    line-height: 2.23;
+    /* color: #ffffff; */
+}
