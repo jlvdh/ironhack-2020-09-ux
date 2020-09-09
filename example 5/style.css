@@ -1,0 +1,23 @@
+#container {
+  background-color: thistle;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sidebar, .main {
+  border: 1px solid red;
+  order: 1;
+}
+
+.main {
+  flex-grow: 2;
+}
+
+.sidebar {
+  flex-grow: 1;
+}
+
+header {
+  flex-basis: 100%;
+  order: 2;
+}

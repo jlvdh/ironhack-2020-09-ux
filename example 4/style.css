@@ -1,0 +1,60 @@
+body {
+  background-color: lavender;
+}
+
+/* this is used to style our flexbox */
+#container {
+  background-color: rgb(164, 248, 220);
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap-reverse; */
+  justify-content: space-between;
+  height: 500px;
+  align-items: flex-start;
+}
+
+.menu {
+  display: flex;
+  width: 200px;
+  border: 1px solid grey;
+}
+
+.menu > div {
+  margin-right: 10px;
+}
+.box {
+  background-color: thistle;
+  margin: 10px;
+  width: 100px;
+  align-items: flex-start;
+  align-items: flex-start;
+}
+
+.normal-box {
+  order: 2;
+}
+
+.last-box {
+  order: 1;
+}; border: 1px solid grey;
+}
+
+.menu > div {
+  margin-right: 10px;
+}
+.box {
+  background-color: thistle;
+  margin: 10px;
+  width: 100px;
+  align-items: flex-start;
+  align-items: flex-start;
+}
+
+.normal-box {
+  order: 2;
+}
+
+.last-box {
+  order: 1;
+};
