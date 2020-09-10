@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-
-
 #container {
     display: flex;
     justify-content: space-between;
-    padding-left: 120px;
-    padding-right: 120px;
     padding-top: 25px;
-
+    width: 83.4%;
+    max-width: 1100px;
+    min-width: 600px;
+    margin: 0 auto;
+    border: 1px solid blue;
 }
 
 #sidebar {
@@ -25,4 +25,23 @@
     font-weight: 900;
     line-height: 2.23;
     /* color: #ffffff; */
+}
+
+#hamburger-menu {
+ display: none;
+}
+
+@media (max-width: 575px) {
+    #container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #sidebar {
+        display: none;
+    }
+
+    #hamburger-menu {
+        display: block;
+    }
 }

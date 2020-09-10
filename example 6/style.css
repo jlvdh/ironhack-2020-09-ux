@@ -1,0 +1,25 @@
+.container {
+  width: 50%;
+  margin: 0 auto;
+  border: solid 1px red;
+  background-color: teal;
+}
+
+.navigation {
+  background-color: tomato;
+}
+
+@media (min-width: 900px) {
+  .container {
+    background-color: yellow;
+  }
+  .navigation {
+    width: 200px;
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1300px) {
+  .container {
+    background-color: orange;
+  }
+}
